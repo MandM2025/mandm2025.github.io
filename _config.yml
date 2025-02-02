@@ -1,0 +1,7 @@
+title: "M&M: Multi-modal Models and Medicine"
+description: "M&M: Multi-modal Models and Medicine"
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-cayman
+plugins:
+  - jekyll-seo-tag
