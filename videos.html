@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <title>M&M Workshop 2025 - Speaker Videos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#ed1c24">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/cayman.css">
+    <style>
+        .video-section {
+            margin-bottom: 40px;
+            padding: 30px;
+            background: #ffffff;
+            border: 1px solid #e0e0e0;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.3s ease;
+        }
+
+        .video-section:hover {
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+        }
+
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            margin: 20px auto;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+
+        .speaker-info {
+            text-align: center;
+            margin-bottom: 25px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+
+        .speaker-info img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+            border: 3px solid #159957;
+        }
+
+        .speaker-info h3 {
+            margin: 10px 0;
+            color: #159957;
+        }
+
+        .speaker-info h3 a {
+            color: #159957;
+            text-decoration: none;
+        }
+
+        .speaker-info h3 a:hover {
+            color: #128f4e;
+            text-decoration: underline;
+        }
+
+        .speaker-info h4 {
+            font-size: 0.95em;
+            color: #666;
+            font-weight: normal;
+            margin: 8px 0;
+        }
+
+        .speaker-info p {
+            margin: 8px 0;
+        }
+
+        .talk-title {
+            font-style: italic;
+            color: #333;
+            font-size: 1.05em;
+            margin-top: 12px;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin: 20px 0;
+            padding: 12px 24px;
+            background-color: #159957;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .back-link:hover {
+            background-color: #128f4e;
+            color: white;
+            text-decoration: none;
+        }
+
+        .placeholder-text {
+            text-align: center;
+            padding: 100px 20px;
+            background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%);
+            color: #666;
+            font-style: italic;
+            margin: 20px auto;
+            border-radius: 8px;
+        }
+
+        .main-content {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+<section class="page-header">
+    <h1 class="project-name">M&M Workshop 2025 Speaker Videos</h1>
+    <!-- <h2 class="project-tagline"><b>CVPR'25 Workshop Recordings</b></h2> -->
+    <a href="index.html" class="back-link">← Back to Main Page</a>
+</section>
+
+<section class="main-content">
+    <h2 style="text-align: center; margin-bottom: 40px;">Workshop Presentations</h2>
+
+    <!-- Lena Maier-Hein -->
+    <div class="video-section">
+        <div class="speaker-info">
+            <img src="images/lena.jpg" alt="Lena Maier-Hein">
+            <h3><a href="https://www.dkfz.de/en/imsy/team/people/Lena_Maier-Hein.html" target="_blank">Lena Maier-Hein</a></h3>
+            <h4>German Cancer Research Center | National Center for Tumor Diseases, Heidelberg</h4>
+            <p class="talk-title">Academic Multimodal AI in the Age of Big Tech Giants</p>
+        </div>
+        <!-- Replace YOUTUBE_VIDEO_ID_1 with actual YouTube video ID -->
+        <!-- Example: https://www.youtube.com/watch?v=VIDEO_ID -> use VIDEO_ID -->
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/4AWF8-erHWQ" allowfullscreen></iframe>
+            <div class="placeholder-text">
+                YouTube video placeholder for Lena Maier-Hein's talk<br>
+                Replace YOUTUBE_VIDEO_ID_1 in the code
+            </div>
+        </div>
+    </div>
+
+    <!-- Vivek Natarajan -->
+    <div class="video-section">
+        <div class="speaker-info">
+            <img src="images/vivek.jpeg" alt="Vivek Natarajan">
+            <h3><a href="https://scholar.google.com/citations?user=gZiW7IAAAAAJ&hl=en" target="_blank">Vivek Natarajan</a></h3>
+            <h4>Google</h4>
+            <p class="talk-title">Accelerating biomedicine with AI physician-scientists</p>
+        </div>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/pr2bcVezMYk" allowfullscreen></iframe>
+            <div class="placeholder-text">
+                YouTube video placeholder for Vivek Natarajan's talk<br>
+                Replace YOUTUBE_VIDEO_ID_2 in the code
+            </div>
+        </div>
+    </div>
+
+    <!-- Akshay Chaudhari -->
+    <div class="video-section">
+        <div class="speaker-info">
+            <img src="images/akshay.jpg" alt="Akshay Chaudhari">
+            <h3><a href="https://profiles.stanford.edu/akshay-chaudhari" target="_blank">Akshay Chaudhari</a></h3>
+            <h4>Stanford</h4>
+            <p class="talk-title">Vision-Language Models in Radiology</p>
+        </div>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/GkNPn1UUL1o" allowfullscreen></iframe>
+            <div class="placeholder-text">
+                YouTube video placeholder for Akshay Chaudhari's talk<br>
+                Replace YOUTUBE_VIDEO_ID_3 in the code
+            </div>
+        </div>
+    </div>
+
+    <!-- Pranav Rajpurkar -->
+    <div class="video-section">
+        <div class="speaker-info">
+            <img src="images/pranav.jpg" alt="Pranav Rajpurkar">
+            <h3><a href="https://pranavrajpurkar.com/" target="_blank">Pranav Rajpurkar</a></h3>
+            <h4>Harvard</h4>
+            <p class="talk-title">Multimodal Generative AI For Medical Image Interpretation</p>
+        </div>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/-TYZ9C5eAOM" allowfullscreen></iframe>
+            <div class="placeholder-text">
+                YouTube video placeholder for Pranav Rajpurkar's talk<br>
+                Replace YOUTUBE_VIDEO_ID_4 in the code
+            </div>
+        </div>
+    </div>
+
+    <!-- Daniel Rueckert -->
+    <div class="video-section">
+        <div class="speaker-info">
+            <img src="images/daniel.jpg" alt="Daniel Rueckert">
+            <h3><a href="https://www.professoren.tum.de/en/rueckert-daniel" target="_blank">Daniel Rueckert</a></h3>
+            <h4>TU Munich | Imperial College London</h4>
+            <p class="talk-title">Multi-modal AI and the Future of Radiology</p>
+        </div>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/yJWqt2EEprQ" allowfullscreen></iframe>
+            <div class="placeholder-text">
+                YouTube video placeholder for Daniel Rueckert's talk<br>
+                Replace YOUTUBE_VIDEO_ID_5 in the code
+            </div>
+        </div>
+    </div>
+
+    <!-- Michael Moor -->
+    <div class="video-section">
+        <div class="speaker-info">
+            <img src="images/michael.jpg" alt="Michael Moor">
+            <h3><a href="https://michaelmoor.me/" target="_blank">Michael Moor</a></h3>
+            <h4>ETH Zurich</h4>
+            <p class="talk-title">Tool-augmented mulitmodal medical reasoning</p>
+        </div>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/y8y3lDjvrYs" allowfullscreen></iframe>
+            <div class="placeholder-text">
+                YouTube video placeholder for Michael Moor's talk<br>
+                Replace YOUTUBE_VIDEO_ID_6 in the code
+            </div>
+        </div>
+    </div>
+
+    <!-- Tim Deyer -->
+    <div class="video-section">
+        <div class="speaker-info">
+            <img src="images/timothy.jpeg" alt="Tim Deyer">
+            <h3><a href="https://eastriverimaging.com/timothy-deyer-m-d/" target="_blank">Tim Deyer</a></h3>
+            <h4>Weill Cornell Medicine | New York Hospital | East River Medical Imaging</h4>
+            <p class="talk-title">3D Vision Language Models for Medical Imaging - A Clinical Perspective</p>
+        </div>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/gT0yuh1OmJY" allowfullscreen></iframe>
+            <div class="placeholder-text">
+                YouTube video placeholder for Tim Deyer's talk<br>
+                Replace YOUTUBE_VIDEO_ID_7 in the code
+            </div>
+        </div>
+    </div>
+
+    <!-- Paul Liang -->
+    <div class="video-section">
+        <div class="speaker-info">
+            <img src="images/paul.jpg" alt="Paul Pu Liang">
+            <h3><a href="https://pliang279.github.io/" target="_blank">Paul Pu Liang</a></h3>
+            <h4>MIT</h4>
+            <p class="talk-title">Multisensory AI for Health and Wellbeing</p>
+        </div>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/rXejtT-UNKc" allowfullscreen></iframe>
+            <div class="placeholder-text">
+                YouTube video placeholder for Paul Pu Liang's talk<br>
+                Replace YOUTUBE_VIDEO_ID_8 in the code
+            </div>
+        </div>
+    </div>
+
+    <div style="text-align: center; margin: 40px 0;">
+        <a href="index.html" class="back-link">← Back to Main Page</a>
+    </div>
+
+    <footer class="site-footer">
+        <span class="site-footer-credits">This page was generated by
+            <a href="https://pages.github.com">GitHub Pages</a> using Cayman by
+            <a href="https://github.com/jasonlong">jasonlong</a> and
+            <a href="https://www.expmedndm.ox.ac.uk/team/justin-xu">Justin Xu</a>.</span>
+    </footer>
+</section>
+
+</body>
+</html>
